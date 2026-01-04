@@ -1,0 +1,14 @@
+{% comment %}
+This file has been copied from https://github.com/academicpages/academicpages.github.io,
+which is licensed under MIT License (see LICENSE_AcademicPages in root folder)
+{% endcomment %}
+
+{% include base_path %}
+
+{% if site.tag_archive.type and page.tags[0] %}
+  {% include tag-list.html %}
+{% endif %}
+
+{% if site.category_archive.type and page.categories[0] %}
+  {% include category-list.html %}
+{% endif %}

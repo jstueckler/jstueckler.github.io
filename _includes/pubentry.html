@@ -1,0 +1,193 @@
+{% comment %}
+(c) 2026 Joerg Stueckler. All rights reserved.
+
+This file has been adapted from https://github.com/snototter/snototter.github.io/blob/master/_includes/pubentry.html, commit cc5bfe2 
+originally licensed under MIT License, see https://github.com/snototter/snototter.github.io/blob/master/LICENSE 
+{% endcomment %}
+
+
+{% assign preprint_url = nil %}
+{% if pub.preprint_url %}
+  {% assign preprint_url = pub.preprint_url %}
+{% endif %}
+
+{% assign publisher_url = nil %}
+{% if pub.publisher_url %}
+  {% assign publisher_url = pub.publisher_url %}
+{% else %}
+  {% if pub.doi_url %}
+    {% assign publisher_url = pub.doi_url %}
+  {% endif %}  
+{% endif %}
+
+{% assign supplemental_url = nil %}
+{% if pub.supplemental_url %}
+  {% assign supplemental_url = pub.supplemental_url %}
+{% endif %}
+
+{% assign slide_url = nil %}
+{% if pub.slide_url %}
+  {% assign slide_url = pub.slide_url %}
+{% endif %}
+
+{% assign video_url = nil %}
+{% if pub.video_url %}
+  {% assign video_url = pub.video_url %}
+{% endif %}
+
+{% assign data_url = nil %}
+{% if pub.data_url %}
+  {% assign data_url = pub.data_url %}
+{% endif %}
+
+{% assign code_url = nil %}
+{% if pub.code_url %}
+  {% assign code_url = pub.code_url %}
+{% endif %}
+
+{% assign note = nil %}
+{% if pub.note %}
+  {% assign note = pub.note %}
+{% endif %}
+
+<tr class="pubentry">
+  {% if pub.teaser_img %}
+    <td class="pubteaser">
+      <img src="{{ pub.teaser_img }}"/>
+    </td>
+  {% endif %}
+  <td class="pubinfo">
+    <p>
+      {{ pub.authors }}. <i>{{ pub.title }}.</i> {{pub.venue}}, {{pub.year}}{% if note %}, {{note}}{% endif %}
+    </p>
+    {% if pub.bib_entry %}
+    <span class="bibentry" id="{{ pub.bib_id }}-bibentry" style="display:none;">
+      <p>BibTeX:</p>
+      <pre style="white-space: pre-wrap; word-wrap: break-word;"><code>{{ pub.bib_entry }}</code></pre>
+    </span>
+    {% endif %}
+    <p>
+
+      {% if publisher_url %}
+      <a href="{{ publisher_url }}" target="_blank"><i class="fa fa-book-open withpuburl"></i>
+      <span class="icontooltiptext">paper</span></a>
+      {% endif %}
+
+      {% if preprint_url %}
+      &nbsp;
+      <a href="{{ preprint_url }}" target="_blank"><i class="fa fa-file-pdf withpuburl"></i>
+      <span class="icontooltiptext">preprint</span></a>
+      {% endif %}
+
+      {% if code_url %}
+      &nbsp;
+      <a href="{{ code_url }}" target="_blank"><i class="fa fa-code withpuburl"></i>
+      <span class="icontooltiptext">source code</span></a>
+      {% endif %}
+
+      {% if data_url %}
+      &nbsp;
+      <a href="{{ data_url }}" target="_blank"><i class="fa fa-database withpuburl"></i>
+      <span class="icontooltiptext">datasets</span></a>
+      {% endif %}
+
+      {% if video_url %}
+      &nbsp;
+      <a href="{{ video_url }}" target="_blank"><i class="fa fa-video withpuburl"></i>
+      <span class="icontooltiptext">video</span></a>
+      {% endif %}
+
+      {% if pub.bib_entry %}
+      &nbsp;
+      <i class="fa fa-link withpuburl" onclick="toggle_bib('{{ pub.bib_id }}')"></i>
+      <span class="icontooltiptext" onclick="toggle_bib('{{ pub.bib_id }}')" style="cursor: pointer;">BibTeX</span>
+      {% endif %}
+    </p>
+  </td>
+  <!--//
+  <td class="puburls">
+    <table>
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+            <div class="icontooltip">
+              {% if supplemental_url %}
+                <a href="{{ supplemental_url }}" target="_blank"><i class="fa fa-file-alt withpuburl"></i></a>
+              {% else %}
+                <i class="fa fa-file-alt withoutpuburl"></i>
+              {% endif %}
+              <span class="icontooltiptext">supp. mat.</span>
+            </div>
+          </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="icontooltip">
+            {% if slide_url %}
+              <a href="{{ slide_url }}" target="_blank"><i class="fa fa-desktop withpuburl"></i></a>
+            {% else %}
+              <i class="fa fa-desktop withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">Presentation</span>
+          </div>
+        </td>
+        <td>
+          <div class="icontooltip">
+            {% if video_url %}
+              <a href="{{ video_url }}" target="_blank"><i class="fa fa-video withpuburl"></i></a>
+            {% else %}
+              <i class="fa fa-video withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">Video</span>
+          </div>
+        </td>
+        <td>
+          <div class="icontooltip">
+            {% if pub.bib_entry %}
+              <i class="fa fa-link withpuburl" onclick="toggle_bib('{{ pub.bib_id }}')"></i>
+            {% else %}
+              <i class="fa fa-link withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">BibTeX Entry</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="icontooltip">
+            {% if data_url %}
+              <a href="{{ data_url }}" target="_blank"><i class="fa fa-database withpuburl"></i></a>
+            {% else %}
+              <i class="fa fa-database withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">Data</span>
+          </div>
+        </td>
+        <td>
+          <div class="icontooltip">
+            {% if code_url %}
+              <a href="{{ code_url }}" target="_blank"><i class="fa fa-code withpuburl"></i></a>
+            {% else %}
+              <i class="fa fa-code withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">Software</span>
+          </div>
+        </td>
+        <td>
+          <div class="icontooltip">
+            {% if external_url %}
+              <a href="{{ external_url }}" target="_blank"><i class="fa fa-globe-americas withpuburl"></i></a>
+            {% else %}
+              <i class="fa fa-globe-americas withoutpuburl"></i>
+            {% endif %}
+            <span class="icontooltiptext">External URL</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+  -->
+  </tr>

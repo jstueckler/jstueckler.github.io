@@ -1,0 +1,17 @@
+// This file has been copied from https://github.com/academicpages/academicpages.github.io, 
+// which is licensed under MIT License (see LICENSE_AcademicPages in root folder) 
+
+// Output
+// ======
+
+// Output
+// ------
+// Output CSS with proper browser support.
+// - $styles  : <map of css property-value pairs>
+@mixin output(
+  $styles
+) {
+  @each $prop, $val in $styles {
+    @include susy-support($prop, $val);
+  }
+}

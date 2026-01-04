@@ -1,0 +1,21 @@
+# Copyright (c) 2026 Joerg Stueckler. All rights reserved.
+
+# This file has been adapted from https://github.com/academicpages/academicpages.github.io, 
+# originally licensed under MIT License (see LICENSE_AcademicPages in root folder)
+
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  - title: "CV"
+    url: /cv/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Teaching"
+    url: /teaching/    
+    

@@ -1,0 +1,15 @@
+{% comment %}
+(c) 2026 Joerg Stueckler. All rights reserved.
+{% endcomment %}
+
+<script>
+  function toggle_bib(id) {
+    var bibtag = document.getElementById(id + '-bibentry');
+
+    if (bibtag.style.display == 'block') {
+      bibtag.style.display = 'none';
+    } else {
+      bibtag.style.display = 'block';
+    }
+  }
+</script>

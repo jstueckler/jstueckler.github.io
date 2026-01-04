@@ -1,0 +1,19 @@
+// This file has been copied from https://github.com/academicpages/academicpages.github.io, 
+// which is licensed under MIT License (see LICENSE_AcademicPages in root folder) 
+
+// sizing icons
+// -------------------------
+
+// literal magnification scale
+@for $i from 1 through 10 {
+  .#{$fa-css-prefix}-#{$i}x {
+    font-size: $i * 1em;
+  }
+}
+
+// step-based scale (with alignment)
+@each $size, $value in $fa-sizes {
+  .#{$fa-css-prefix}-#{$size} {
+     @include fa-size($value);
+  }
+}

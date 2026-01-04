@@ -1,0 +1,44 @@
+---
+# (c) 2026 Joerg Stueckler. All rights reserved. 
+
+# This file has been adapted from https://github.com/snototter/snototter.github.io/blob/master/_includes/pubentry.html, commit cc5bfe2
+# originally licensed under MIT license, see https://github.com/snototter/snototter.github.io/blob/master/LICENSE
+
+title: "Publications"
+permalink: /publications/
+redirect_from: 
+  - /papers
+author_profile: true
+---
+{% include base_path %}
+{% assign author = site.author %}
+
+{% comment %}
+Find min/max publication year
+{% endcomment %}
+{% assign pub_max_year = 0 %}
+{% assign pub_min_year = 9999 %}
+{% for pub in site.publications %}
+  {% if pub.year > pub_max_year %}
+    {% assign pub_max_year = pub.year %}
+  {% endif %}
+  {% if pub.year < pub_min_year %}
+    {% assign pub_min_year = pub.year %}
+  {% endif %}
+{% endfor %}
+
+{% for pub_year in (pub_min_year..pub_max_year) reversed %}
+  {% assign pubs_per_year = site.publications | where: "year", pub_year %}
+  {% if pubs_per_year.size > 0%}
+<h3 id="p{{ pub_year }}">{{ pub_year }}</h3>
+<table class="pubtable">
+  <tbody>
+    {% for pub in pubs_per_year reversed %}
+      {% include pubentry.html %}
+    {% endfor %}
+  </tbody>
+</table>
+  {% endif %}
+{% endfor %}
+
+

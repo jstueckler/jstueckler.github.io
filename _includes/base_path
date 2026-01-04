@@ -1,0 +1,10 @@
+{% comment %}
+This file has been copied from https://github.com/academicpages/academicpages.github.io,
+which is licensed under MIT License (see LICENSE_AcademicPages in root folder)
+{% endcomment %}
+
+{% if site.url %}
+  {% assign base_path = site.url | append: site.baseurl %}
+{% else %}
+  {% assign base_path = site.github.url %}
+{% endif %}

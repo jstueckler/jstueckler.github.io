@@ -1,0 +1,24 @@
+// This file has been copied from https://github.com/academicpages/academicpages.github.io, 
+// which is licensed under MIT License (see LICENSE_AcademicPages in root folder) 
+
+// Shared Container API
+// ====================
+
+// Container Output
+// ----------------
+// - [$width]         : <length>
+// - [$justify]       : left | center | right
+// - [$math]          : fluid | static
+@mixin container-output(
+  $width,
+  $justify: auto auto,
+  $property: max-width
+) {
+  $output: (
+    #{$property}: $width or 100%,
+    margin-left: nth($justify, 1),
+    margin-right: nth($justify, 2),
+  );
+
+  @include output($output);
+}

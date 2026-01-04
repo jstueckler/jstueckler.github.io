@@ -1,0 +1,21 @@
+// This file has been copied from https://github.com/academicpages/academicpages.github.io, 
+// which is licensed under MIT License (see LICENSE_AcademicPages in root folder) 
+
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+
+/*
+   Hide the following elements on print
+   ========================================================================== */
+
+@media print {
+  .masthead,
+  .toc,
+  .page__share,
+  .page__related,
+  .ads,
+  .page__footer {
+    display: none;
+  }
+}
