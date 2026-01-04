@@ -4,7 +4,7 @@ title: "Efficient Mobile Robot Navigation using 3D Surfel Grid Maps"
 collection: publications
 bib_id: 'klaess-robotik12'
 permalink: /publication/2012-01-01-Efficient-Mobile-Robot-Navigation-using-3D-Surfel-Grid-Maps
-authors:  J. Klä{\ss},  J. Stueckler,  S. Behnke
+authors:  J. Kläß,  J. Stueckler,  S. Behnke
 date: 2012-01-01
 year: 2012
 venue: 'Proc. of ROBOTIK'

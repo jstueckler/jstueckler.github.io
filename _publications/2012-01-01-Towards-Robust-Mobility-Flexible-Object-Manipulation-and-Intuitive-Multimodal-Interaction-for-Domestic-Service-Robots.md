@@ -4,7 +4,7 @@ title: "Towards Robust Mobility, Flexible Object Manipulation, and Intuitive Mul
 collection: publications
 bib_id: 'stueckler-lncs12'
 permalink: /publication/2012-01-01-Towards-Robust-Mobility-Flexible-Object-Manipulation-and-Intuitive-Multimodal-Interaction-for-Domestic-Service-Robots
-authors:  J. Stueckler,  D. Droeschel,  K. Gräve,  D. Holz,  J. Klä{\ss},  M. Schreiber,  R. Steffens,  S. Behnke
+authors:  J. Stueckler,  D. Droeschel,  K. Gräve,  D. Holz,  J. Kläß,  M. Schreiber,  R. Steffens,  S. Behnke
 date: 2012-01-01
 year: 2012
 venue: 'RoboCup 2011, Robot Soccer World Cup XV'
