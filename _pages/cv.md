@@ -16,7 +16,7 @@ redirect_from:
 ## Academic Positions
 * 2023--now: University Professor (tenured), Intelligent Perception in Technical Systems Group, University of Augsburg, Germany
 * 2018--2024: Research Group Leader, Independent Cyber Valley/Max Planck Research Group on Embodied Vision, MPI for Intelligent Systems, Tuebingen
-* 2017--2018: Deputy Professor, Chair for Computer Vision and Artificial Intelligence, TU Munich
+* 2017--2018: Visiting Professor, Chair for Computer Vision and Artificial Intelligence, TU Munich
 * 2015--2017: Postdoctoral Researcher, Computer Vision Group, RWTH Aachen University
 * 2014--2015: Postdoctoral Researcher, Chair for Computer Vision and Pattern Recognition, TU Munich
 * 2008--2014: Research Associate, Chair for Autonomous Intelligent Systems, University of Bonn
