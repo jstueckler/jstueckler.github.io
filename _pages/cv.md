@@ -41,7 +41,7 @@ redirect_from:
 
 ## Academic Services
 * 2025--2026: Associate Editor, IEEE International Conference on Robotics and Automation (ICRA)
-* 2020--2025: Associate Editor, IEEE Robotics and Automation Letters (RA-L)
+* 2020--2023,2025: Associate Editor, IEEE Robotics and Automation Letters (RA-L)
 * 2023--2024: Area Chair, Conference on Robot Learning
 * 2020: Program Co-Chair, International Symposium on Vision, Modeling and Visualization (VMV)
 * 2019, 2021, 2022, 2024: Robot Vision Special Track Chair, German Conference on Pattern Recognition (GCPR)
