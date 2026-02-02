@@ -28,9 +28,10 @@ Further details on my CV can be found [here]({{ site.baseurl }}/cv/).
 I am passionate about researching intelligent robots that perform complex tasks in everyday environments. My research centers around scene understanding and representation learning for robotics. With my research group, I pursue approaches for 3D object perception and learning world models, i.e., action-conditional forward models, for robot perception, planning, and control.
 
 ## Current Group Members
-### PhD Students
-* Jens Kreber
-* Lukas Mack
+### Scientific Staff
+* Dr. Haolong Li (Postdoc)
+* Jens Kreber (PhD Student)
+* Lukas Mack (PhD Student)
 
 ### Student Assistants
 * Marlene Hermelink
