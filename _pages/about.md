@@ -29,8 +29,8 @@ I am passionate about researching intelligent robots that perform complex tasks 
 
 ## Current Group Members
 ### Scientific Staff
-* Dr. Haolong Li (Postdoc)
 * Jens Kreber (PhD Student)
+* Dr. Haolong Li (Postdoc)
 * Lukas Mack (PhD Student)
 
 ### Student Assistants
