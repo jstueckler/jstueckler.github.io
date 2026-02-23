@@ -29,9 +29,9 @@ I am passionate about researching intelligent robots that perform complex tasks 
 
 ## News
 
-### 2026-02-23 - Research Associate / PhD Position Opening
+### 2026-02-23 - Research Associate (PhD Candidate) Opening
 
-My research group at the University of Augsburg has a vacancy for a three-year research associate / PhD candidate position in the topic areas Computer Vision and Embodied AI. 
+My research group at the University of Augsburg has an open three-year research associate (PhD candidate) position in the topic areas Computer Vision and Embodied AI. 
 
 Please see the official advertisement (English translation) at this [link](https://www.uni-augsburg.de/en/jobs-und-karriere/stellenangebote/2026/02/23/research-associate-mfd-faculty-of-applied-computer-science_2042/) for further details on the position and information how to apply. 
 
