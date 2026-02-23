@@ -7,14 +7,14 @@ permalink: /publication/2026-01-01-Guided-Diffusion-by-Optimized-Loss-Functions-
 authors:  Jens Kreber,  Christian Weißenfels,  Joerg Stueckler
 date: 2026-01-01
 year: 2026
-venue: 'CoRR'
+venue: 'CoRR/arxiv abs/2602.15648'
 publisher_url: 'https://arxiv.org/abs/2602.15648'
 bib_entry: |
   @techreport{kreber2026_diffmat,
       author = "Kreber, Jens U. and Wei\ssenfels, Christian and Stueckler, Joerg",
       title = "Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design",
       number = "abs/2602.15648",
-      institution = "CoRR",
+      institution = "CoRR/arxiv abs/2602.15648",
       year = "2026",
       url = "https://arxiv.org/abs/2602.15648"
   }
