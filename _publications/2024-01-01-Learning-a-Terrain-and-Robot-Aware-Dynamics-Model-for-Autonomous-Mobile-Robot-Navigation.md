@@ -13,7 +13,6 @@ bib_entry: |
   @techreport{achterhold2024_tradynuncertainty,
       author = "Achterhold, Jan and Guttikonda, Suresh and Kreber, Jens U. and Stueckler, Joerg",
       title = "Learning a Terrain- and Robot-Aware Dynamics Model for Autonomous Mobile Robot Navigation",
-      booktitle = "Proc. of the International Conference on 3D Vision (3DV)",
       volume = "abs/2409.11452",
       institution = "CoRR",
       year = "2024",
