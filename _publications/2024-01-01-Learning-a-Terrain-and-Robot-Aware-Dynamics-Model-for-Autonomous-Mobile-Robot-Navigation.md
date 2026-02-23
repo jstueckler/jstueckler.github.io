@@ -7,15 +7,16 @@ permalink: /publication/2024-01-01-Learning-a-Terrain-and-Robot-Aware-Dynamics-M
 authors:  Jan Achterhold,  Suresh Guttikonda,  Jens Kreber,  Joerg Stueckler
 date: 2024-01-01
 year: 2024
-venue: 'CoRR/arxiv abs/2409.11452'
-publisher_url: 'https://arxiv.org/abs/2409.11452'
+venue: 'CoRR/arxiv'
+publisher_url: 'https://arxiv.org/pdf/2409.11452'
 bib_entry: |
   @techreport{achterhold2024_tradynuncertainty,
       author = "Achterhold, Jan and Guttikonda, Suresh and Kreber, Jens U. and Stueckler, Joerg",
       title = "Learning a Terrain- and Robot-Aware Dynamics Model for Autonomous Mobile Robot Navigation",
-      number = "abs/2409.11452",
-      institution = "CoRR/arxiv abs/2409.11452",
+      note = "abs/2409.11452",
+      institution = "CoRR/arxiv",
       year = "2024",
-      url = "https://arxiv.org/abs/2409.11452"
+      url = "https://arxiv.org/pdf/2409.11452"
   }
+note: abs/2409.11452
 ---

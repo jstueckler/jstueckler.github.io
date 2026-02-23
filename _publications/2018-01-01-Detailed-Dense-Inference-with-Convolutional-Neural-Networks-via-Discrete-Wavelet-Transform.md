@@ -7,15 +7,16 @@ permalink: /publication/2018-01-01-Detailed-Dense-Inference-with-Convolutional-N
 authors:  Lingni Ma,  Joerg Stueckler,  Tao Wu,  Daniel Cremers
 date: 2018-01-01
 year: 2018
-venue: 'CoRR/arxiv abs/1808.01834'
-publisher_url: 'https://arxiv.org/abs/1808.01834'
+venue: 'CoRR/arxiv'
+publisher_url: 'https://arxiv.org/pdf/1808.01834'
 bib_entry: |
   @techreport{lingni18_wcnn,
       author = "Ma, Lingni and Stueckler, Joerg and Wu, Tao and Cremers, Daniel",
       title = "Detailed Dense Inference with Convolutional Neural Networks via Discrete Wavelet Transform",
-      number = "abs/1808.01834",
-      institution = "CoRR/arxiv abs/1808.01834",
+      note = "abs/1808.01834",
+      institution = "CoRR/arxiv",
       year = "2018",
-      url = "https://arxiv.org/abs/1808.01834"
+      url = "https://arxiv.org/pdf/1808.01834"
   }
+note: abs/1808.01834
 ---
