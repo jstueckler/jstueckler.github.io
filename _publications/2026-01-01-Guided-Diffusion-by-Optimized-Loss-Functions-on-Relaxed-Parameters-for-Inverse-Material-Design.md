@@ -13,7 +13,7 @@ bib_entry: |
   @techreport{kreber2026_diffmat,
       author = "Kreber, Jens U. and Wei\ssenfels, Christian and Stueckler, Joerg",
       title = "Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design",
-      volume = "abs/2602.15648",
+      number = "abs/2602.15648",
       institution = "CoRR",
       year = "2026",
       url = "https://arxiv.org/abs/2602.15648"

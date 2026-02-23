@@ -13,7 +13,7 @@ bib_entry: |
   @techreport{achterhold2024_tradynuncertainty,
       author = "Achterhold, Jan and Guttikonda, Suresh and Kreber, Jens U. and Stueckler, Joerg",
       title = "Learning a Terrain- and Robot-Aware Dynamics Model for Autonomous Mobile Robot Navigation",
-      volume = "abs/2409.11452",
+      number = "abs/2409.11452",
       institution = "CoRR",
       year = "2024",
       url = "https://arxiv.org/abs/2409.11452"

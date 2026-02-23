@@ -13,7 +13,7 @@ bib_entry: |
   @techreport{li2022_obsanalysis_kinvio,
       author = "Li, Haolong and Stueckler, Joerg",
       title = "Observability Analysis of Visual-Inertial Odometry with Online Calibration of Velocity-Control Based Kinematic Motion Models",
-      volume = "abs/2204.06651",
+      number = "abs/2204.06651",
       institution = "CoRR/arxiv",
       year = "2022",
       url = "https://arxiv.org/abs/2204.06651"

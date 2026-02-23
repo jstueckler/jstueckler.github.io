@@ -13,7 +13,7 @@ bib_entry: |
   @techreport{lingni18_wcnn,
       author = "Ma, Lingni and Stueckler, Joerg and Wu, Tao and Cremers, Daniel",
       title = "Detailed Dense Inference with Convolutional Neural Networks via Discrete Wavelet Transform",
-      volume = "abs/1808.01834",
+      number = "abs/1808.01834",
       institution = "CoRR/arxiv",
       year = "2018",
       url = "https://arxiv.org/abs/1808.01834"
