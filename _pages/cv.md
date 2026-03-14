@@ -40,6 +40,7 @@ redirect_from:
 * 2018--2024: Faculty member of the International Max Planck Research School on Intelligent Systems (https://imprs.is.mpg.de/)
 
 ## Academic Services
+* 2026--now: Senior Editor, IEEE Robotics and Automation Letters (RA-L), area "Visual Perception and Learning"
 * 2025--2026: Associate Editor, IEEE International Conference on Robotics and Automation (ICRA)
 * 2020--2023,2025: Associate Editor, IEEE Robotics and Automation Letters (RA-L)
 * 2023--2024: Area Chair, Conference on Robot Learning
