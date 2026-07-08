@@ -46,6 +46,7 @@ Application deadline is July 24th, 2026.
 ### Student Assistants
 * Marlene Hermelink
 * Veit Kobler
+* Ke Qing Yee
 
 ## Alumni
 * Dr. rer. nat. Michael Strecke (2018--2023, graduated from University of Tuebingen), now: Hexagon AB
