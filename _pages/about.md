@@ -33,7 +33,7 @@ I am passionate about researching intelligent robots that perform complex tasks 
 
 My research group at the University of Augsburg has an open three-year research associate / PhD student position in the topic areas Computer Vision and Embodied AI. 
 
-Please see this link [link](https://www.uni-augsburg.de/en/jobs-und-karriere/stellenangebote/2026/07/07/research-associate-mfd-as-phd-student-faculty-of-applied-comnputer-science_2382/) for further details on the position and information on how to apply. 
+Please see this [link](https://www.uni-augsburg.de/en/jobs-und-karriere/stellenangebote/2026/07/07/research-associate-mfd-as-phd-student-faculty-of-applied-comnputer-science_2382/) for further details on the position and information on how to apply. 
 
 Application deadline is July 24th, 2026.
 
