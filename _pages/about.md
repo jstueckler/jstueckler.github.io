@@ -42,6 +42,7 @@ Application deadline is July 24th, 2026.
 * Jens Kreber (PhD Student)
 * Dr. Haolong Li (Postdoc)
 * Lukas Mack (PhD Student)
+* Haolei Tong (PhD Student)
 
 ### Student Assistants
 * Marlene Hermelink
