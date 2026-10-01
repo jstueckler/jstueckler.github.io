@@ -45,14 +45,14 @@ Application deadline is July 24th, 2026.
 * Haolei Tong (PhD Student)
 
 ### Student Assistants
-* Marlene Hermelink
 * Veit Kobler
 * Ke Qing Yee
+* Lars Britz
 
 ## Alumni
 * Dr. rer. nat. Michael Strecke (2018--2023, graduated from University of Tuebingen), now: Hexagon AB
 * Dr. rer. nat. Jan Achterhold (2018--2024, graduated from University of Tuebingen), now: Robert Bosch GmbH
-* Dr. rer. nat. Haolong Li (2019-2024, graduated from University of Tuebingen), now: SafeAD
+* Dr. rer. nat. Haolong Li (2019-2024, graduated from University of Tuebingen), now: University of Augsburg
 * Rama Krishna Kandukuri (2019-2024), now: Magazino GmbH
 * Dr. sc. Cathrin Elich (2019-2024, graduated from ETH Zurich, co-supervised with Marc Pollefeys), now: Zeiss IQS
 * Mikel Zhobro (2022-2024), now: University of Tuebingen 
