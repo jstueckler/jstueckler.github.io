@@ -29,6 +29,10 @@ I am passionate about researching intelligent robots that perform complex tasks 
 
 ## News
 
+### 2026-08-12 - AE for ICRA 2027
+
+I will serve as Associate Editor for ICRA 2027 in topic area "Visual Perception and Learning".
+
 ### 2026-07-08 - Research Associate / PhD Position Opening
 
 My research group at the University of Augsburg has an open three-year research associate / PhD student position in the topic areas Computer Vision and Embodied AI. 
