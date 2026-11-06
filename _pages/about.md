@@ -49,9 +49,10 @@ Application deadline is July 24th, 2026.
 * Haolei Tong (PhD Student)
 
 ### Student Assistants
+* Lars Britz
 * Veit Kobler
 * Ke Qing Yee
-* Lars Britz
+* Elif Yildiz
 
 ## Alumni
 * Dr. rer. nat. Michael Strecke (2018--2023, graduated from University of Tuebingen), now: Hexagon AB
